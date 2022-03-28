@@ -15,6 +15,6 @@ I simluated the player's selections in the live game using a custom environment 
 <img width="853" alt="Screenshot 2022-03-28 at 15 24 20" src="https://user-images.githubusercontent.com/8386425/160419686-e43e5e17-5783-4971-801a-3f8d90760f0d.png">
 
 
-After studying various state-of-the-art methods, I experimented with and implemented the algorithms A2C, PPO and TRPO using Stable Baselines. Reinforcement learning suffers from sample inefficiency, so I increased my training budget to allow adequate time for the algorithm to converge. Here is an example of how the mean reward increased over 25,000 timesteps while training the A2C alogirthm with the default MLP policy network (gamma=0). 
+After studying various state-of-the-art methods, I experimented with and implemented the algorithms A2C, PPO and TRPO using Stable Baselines. Reinforcement learning suffers from sample inefficiency, so I increased my training budget to allow adequate time for the algorithm to converge. Here is an example of how the mean reward increased over 25,000 timesteps while training the A2C alogirthm with the default MLP policy network with 2 hidden layers of 64 (gamma=0). 
 
 <img width="967" alt="Screenshot 2022-03-28 at 15 32 20" src="https://user-images.githubusercontent.com/8386425/160421464-9dceb61c-02c5-4f37-8606-be588895cc71.png">
